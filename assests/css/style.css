@@ -33,6 +33,15 @@ nav ul {
     text-decoration: none;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-size: 2rem;
+    padding-right: 5%;
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -42,14 +51,6 @@ nav ul {
     color: white;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    font-size: 2rem;
-    padding-right: 5%;
-}
 
 .sub-content {
     display: flex;
@@ -86,4 +87,24 @@ h3 {
     display: flex;
     justify-content: center;
     width: 85%;
+}
+
+@media screen and (max-width: 768px) {
+    .project-pic img {
+        width: 400px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project-pic img {
+        width: 200px;
+    }
+
+    p {
+        font-size: .75rem;
+    }
 }
