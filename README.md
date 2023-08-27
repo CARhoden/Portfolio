@@ -16,7 +16,7 @@ Just a website so a web browser is all your need. I would recommend Google Chrom
  
 ## Deployment
 
-This website is deployed on github. So by this link: https://carhoden.github.io/horiseon-refactor/ you can access to it.
+This website is deployed on github. So by this link: https://carhoden.github.io/Portfolio/ you can access to it.
 
 ## Built With
 
